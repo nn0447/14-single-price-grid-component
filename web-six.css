@@ -1,0 +1,68 @@
+.grid{
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 200px 250px;
+    background-color: green;
+    height: 400px;
+    width: 400px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.gridone{
+    background-color: white;
+    grid-area: 1/1/2/3;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    color: gray;
+}
+.gridtwo{
+    background-color: rgb(94, 214, 212);
+    border-bottom-left-radius: 20px;
+    color: white;
+}
+.gridthree{
+    background-color: rgb(45, 84, 134);
+    border-bottom-right-radius: 20px;
+    color: white;
+}
+body{
+    background-color: lightgreen;
+}
+p{
+    margin-left: 15px;
+}
+h1{
+    margin-left: 15px;
+    color: skyblue;
+}
+h2{
+    margin-left: 15px;
+}
+button{
+    margin-left: 50px;
+    border-style: none;
+    background-color: greenyellow;
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+    color: white;
+}
+.flex{
+    display: flex;
+}
+#price{
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: -40px;
+    font-weight: bold;
+}
+#one{
+    color: greenyellow;
+    font-size: 20px;
+    font-weight: bold;
+}
+li{
+    list-style: none;
+}
+
